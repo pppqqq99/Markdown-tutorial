@@ -1,0 +1,49 @@
+# This is MarkDown
+
+## contents
+* [**Headings**](#Headings) 
+* [**Paragraphs**](#Paragraphs)  
+* [**Line_Breaks**](#Line_Breaks)  
+* [**Emphasis**](#Emphasis)  
+* [**Blockquotes**](#Blockquotes)  
+* [**Lists**](#Lists)  
+* [**Code**](#Code)  
+* [**Horizontal_Rules**](#Horizontal_Rules)  
+* [**Links**](#Links)  
+* [**Images**](#Images)  
+* [**Escaping_Characters**](#Escaping_Characters)  
+* [**HTML**](#HTML)  
+* [**GFM_URL**](#GFM_URL)  
+
+<br><br><br>
+## **Headings**  
+
+제목은 #의 연속으로 표현할 수 있다.  
+#이 많아질 수록 작은 제목이 된다.
+
+>**ex1)**  
+># heading1  
+>## heading2  
+>### heading3  
+
+<br><br><br>
+## **Paragraphs**  
+단락을 나눌 때는 일반 글쓰기 형식과는 다르게 단락 첫 문자의 띄어쓰기를 하지 않는다.  
+>ex1)  
+>1문단입니다.  
+>
+>2문단입니다.
+
+<br><br><br>
+## **Line_Breaks** 
+줄바꿈은 2가지의 방법이 있다.  
+
+1. 두 번의 스페이스바를 이용한 줄 바꿈  
+>ex1)  
+>첫 번째 문장  
+>두 번째 문장
+
+2. ```<br>```을 이용한 줄 바꿈  
+>ex2)  
+>첫 번째 문장<br>
+>두 번째 문장
