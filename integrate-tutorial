@@ -47,3 +47,241 @@
 >ex2)  
 >첫 번째 문장<br>
 >두 번째 문장
+
+<br><br><br>  
+## **Emphasis**
+Markdown에서 단어를 강조하는 방법은 2가지가 있다.  
+
+1. 굵은 글씨체로 강조하기 
+>ex1)  
+>일반 글씨체 >> **굵은 글씨체**  
+
+2. 이탤릭체로 강조하기
+>ex2)  
+>일반 글씨체 >> *이탤릭체*  
+
+* 추가적으로 굵은 글씨체와 이탤릭체는 함께 사용할 수 있다.  
+>ex3)  
+>일반 글씨체 >> ***굵은 이탤릭체***  
+
+
+<br><br><br>
+## **Blockquotes**  
+인용구를 만들고 싶다면 문장을 시작할 때 ```>```기호를 입력하면 된다.  
+위의 모든 예시들을 인용구로 처리했다.  
+인용구 안에 인용구를 만들고 싶다면 ```>```기호를 중복 사용하면 된다.  
+>ex1)  
+>인용구  
+>>인용구 안의 인용구  
+>>>인용구 안의 인용구 안의 인용구  
+
+<br><br><br>
+## **Lists**  
+파일을 보기좋게 정리하기 위한 몇 가지 기능이 있다.  
+
+* 정렬  
+정렬에는 번호 정렬과 점 정렬이 있다.  
+번호 정렬은 말 그대로 번호를 매겨 정렬하는 것 이다.  
+>ex1)  
+>1. 첫 번째 줄  
+>2. 두 번째 줄
+>3. 세 번째 줄
+
+점 정렬도 말 그대로 점을 나타내어 정렬하는 것 이다.  
+>ex2)  
+>- 첫 번째 줄
+>- 두 번째 줄
+>- 세 번째 줄
+
+점 정렬을 응용할 수도 있다.
+>ex3)  
+>* 첫 번째 줄
+>* 두 번째 줄  
+>   * 들여쓰기  
+>   * 들여쓰기
+>* 세 번째 줄  
+
+<br><br><br>
+## **Adding elements in Lists**  
+목록에는 몇 가지 추가할 수 있는 요소들이 존재한다.  
+* 단락  
+> ex1)  
+> * 첫 번째 목록  
+> * 두 번째 목록  
+>   두 번째 목록의 단락
+>  
+> * 세 번째 목록  
+
+* 인용구  
+> ex2)  
+> * 첫 번째 목록  
+> * 두 번째 목록  
+> > *인용구*  
+> * 세 번째 목록  
+
+* 코드 블록  
+> ex3)  
+> * 첫 번째 목록  
+> * 두 번째 목록  
+>   #include <stdio.h>  
+>     int main()  
+>     { printf("hello world");
+>     return 0; }
+> * 세 번째 목록  
+
+* 이미지  
+> ex4)
+> * 첫 번째 목록  
+> * 두 번째 목록  
+>  ![Markdown](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png)
+> * 세 번째 목록  
+
+<br><br>
+### **Code**  
+단어나 구를 코드로 표현하려면 ( ` )로 묶는다.  
+> ex1)  
+> 문자열 라이브러리를 사용하기 위해서는 `#include <string.h>`를 포함해야 한다.  
+
+코드 블럭  
+
+코드 블럭을 만들여면 모든 줄을 최소 1개의 탭으로 들여 써야한다.  
+
+     <html>
+       <head>
+      </head>
+    </html>
+
+<br><br><br>
+## **Horizontal_Rules**  
+수평 라인을 만드려면 세 개 이상의 별표(***)나 대시(---), 밑줄(___)을 입력하면 됩니다.  
+
+> ex1)  
+> 첫 번째 문장  
+> *** 
+> 두 번째 문장  
+> ___  
+> 세 번째 문장  
+> ___
+
+<br><br><br>
+## **Links**  
+링크를 만드려면 대괄호 안에 링크를 걸 단어를 입력하고 소괄호에 주소를 넣으면 된다.  
+
+>ex1)  
+>[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/)  
+
+선택적으로 제목을 추가할 수 있다.  
+>ex2)  
+>[Markdown basic syntax](https://www.markdownguide.org/basic-syntax/ "Studying Markdown harder")  
+
+URL 과 이메일 주소를 링크로 만들 수도 있다.  
+>ex3)  
+> <https://www.markdownguide.org/basic-syntax/>  
+> <pppqqq99@naver.com>  
+
+링크를 강조하기 위한 표현을 추가할 수 있다.  
+>ex4)  
+>마크다운 기본문법을 공부하려면 **[Markdown basic Syntax](https://www.markdownguide.org/basic-syntax/)** 를 클릭하시오.  
+>마크다운을 심화학습하고 싶다면 *[Markdown Extended Syntax](https://www.markdownguide.org/extended-syntax/)* 를 클릭하시오.  
+
+<br> 
+
+### **Reference-style Links**  
+
+참조 스타일 링크는 링크를 재사용하기 위한 기능이다.  
+
+예시를 통해 직관적으로 알아보자.  
+> ex5)
+>```[MarkDown][1]```
+>
+>```[1]: https://www.markdownguide.>org/extended-syntax/  ```
+>
+>```[Markdown extended syntax][1]```
+
+위의 코드를 코드블럭없이 실행하면 아래와 같다.  
+>
+>[MarkDown][1]
+>
+>[1]: https://www.markdownguide.>org/extended-syntax/  
+>[Markdown extended syntax][1]
+
+위의 코드를 보고 reference-style-Links가 어떻게 사용되는지 유추할 수 있다. 
+
+*참조 스타일 링크는 **두 부분**으로 구성된다.*
+ 
+* 링크의 첫 번째 부분
+
+```[MarkDown][1]```
+
+    1. 두 세트의 대괄호 형식으로 지정된다.  
+    2. 첫 번째 대괄호 안에는 링크된 텍스트가 들어간다.  
+    3. 두 번째 대괄호 안에는 파일의 다른 곳에 저장하는 링크를 표현하는 레이블을 표시한다.
+
+
+* 링크의 두 번째 부분  
+
+```[1]: https://www.markdownguide.>org/extended-syntax/```
+
+    1. 링크 첫 번째 부분의 두 번째 대괄호 뒤에 콜론과 하나 이상의 콩백이 온다.  
+    2. 그 뒤에 링크의 URL이 온다. (꺽쇠 괄호로 묶을 수 있음)  
+    
+
+
+첫 번째 부분 주의점  
+    - 대괄호 사이에 공백을 포함할 수 있다.
+    - 두 번째 대괄호 안의 레이블은 대소 문자를 구분하지 않으면 문자, 숫자, 공백 또는 점을 포함할 수 있다. 
+
+ 두 번째 부분 주의점  
+    - URL 뒤에 제목을 붙일 수 있다. (큰 따옴표, 작은 따옴표, 소괄호)
+
+<br><br><br>
+## **Images**  
+
+이미지를 추가하려면 느낌표, []안에 대체 텍스트, ()안에 이미지 자산의 경로 또는 URL을 추가 할 수 있다.  
+
+> ex1)  
+![Markdown](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png)
+
+
+
+<br>
+
+### **Image linking**  
+
+이미지에 링크를 추가하려면 이미지 주소를 대괄호로 묶고 연결하고 싶은 링크 주소를 괄호로 묶어 추가하면 된다.  
+>ex2)  
+[![Markdown](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png)](https://www.markdownguide.org/)
+
+
+<br><br><br>
+## **Escaping_Characters** 
+
+Markdown 문법에서 명령어로 사용되는 기호들이 있다.  
+만약 그 기호를 화면에 그대로 출력하고 싶을 때 Escaping 문자를 사용하면 된다.  
+
+<br>
+나는 코드 내에서 ### heading을 출력하고 싶다. 
+만약 Escaping 문자 없이 출력한다면 다음과 같이 출력된다.
+
+> ex1)     
+> ### heading
+> Escaping 문자를 사용한다면  
+> \### heading
+> 을 문자 그대로 출력할 수 있다.
+
+<br><br><br>
+## **HTML**  
+Markdown은 유용하게 사용되지만 상황에 따라서는 HTML이 더 알맞게 사용되는 경우가 있다.
+
+> ex1)  
+> This **word** is bold. This <em>word</em> is italic.
+
+위 예시와 같이 텍스트를 꾸미거나 이미지 속성을 변경할 때 HTML을 Markdown과 적절하게 혼용하여 사용할 수 있다.  
+
+
+
+<br><br><br>
+## **GFM_URL**
+GFM을 활용하여 Markdown의 확장 문법을 공부해보자!  
+아래 링크를 눌러주세요!  
+https://github.com/pppqqq99/git-love/blob/main/README.md
