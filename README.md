@@ -14,7 +14,8 @@ https://github.com/pppqqq99/Markdown-tutorial
 4. 두 번째 플레이어의 두 번째 작업 - 두 번째 플레이어가 다른 pc로 player1's final을 확인하고 GFM부분을 분리하는 수정을 하였다가 파일을 하나로 만들어야 하기 때문에 다시 reset을 한 후 player1's final에 tag를 붙이며 프로젝트를 마친다.
 
 
-* 첫 번째 플레이어의 첫 번째 작업
+* 첫 번째 플레이어의 첫 번째 작업  
+
 ![init](https://user-images.githubusercontent.com/64363668/117330796-0332f080-aed1-11eb-8716-d2abe8cdab42.PNG)
 1. markdown tutorial이라는 폴더를 생성 한 후 내용이라는 파일 생성 후 commit
 2. master branch에서 contents-detail이라는 branch를 생성 한 후 heading이라는 파일을 commit
@@ -23,6 +24,12 @@ https://github.com/pppqqq99/Markdown-tutorial
 5. master branch로 다시 checkout한 후 pragraphs라는 파일을 commit
 6. master branch에 contenst-linebreaks를 rebase함
 7. 이후 github의 원격 repository인 origin에 master branch를 push함
+
+* 두 번째 플레이어의 첫 번째 작업  
+
+1. clone 함
+2. integrate file이라는 파일 생성
+3. 
 
 
 |    명령어    |    사용여부    |              링크             |
