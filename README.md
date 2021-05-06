@@ -15,6 +15,7 @@ https://github.com/pppqqq99/Markdown-tutorial
 
 
 * 첫 번째 플레이어의 첫 번째 작업
+* https://github.com/pppqqq99/Markdown-tutorial/issues/1#issue-877675173
 1. markdown tutorial이라는 폴더를 생성 한 후 내용이라는 파일 생성 후 commit
 2. master branch에서 contents-detail이라는 branch를 생성 한 후 heading이라는 파일을 commit
 3. master branch에 contents-detail을 merge함
@@ -31,7 +32,7 @@ https://github.com/pppqqq99/Markdown-tutorial
 |checkout| O | |
 |clone| O | |
 |config| O | |
-|init | O | |
+|init | O |https://github.com/pppqqq99/Markdown-tutorial/issues/1#issue-877675173 |
 |log| O | |
 |merge| O | |
 |pull| O| |
