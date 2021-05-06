@@ -27,7 +27,7 @@ https://github.com/pppqqq99/Markdown-tutorial
 
 |    명령어    |    사용여부    |              링크             |
 | :---------: | :----------:   | :---------------------------: |
-|  add        | O | ![init](https://user-images.githubusercontent.com/64363668/117330796-0332f080-aed1-11eb-8716-d2abe8cdab42.PNG)|
+|  add        | O | |
 |  branch | O | |
 |checkout| O | |
 |clone| O | |
