@@ -28,3 +28,16 @@ https://github.com/pppqqq99/Markdown-tutorial
 | :---------: | :----------:   | :---------------------------: |
 |  add        | O | |
 |  branch | O | |
+|checkout| O | |
+|clone| O | |
+|config| O | |
+|init | O | |
+|log| O | |
+|merge| O | |
+|pull| O| |
+|push| O| |
+|rebase| O | |
+|remote|O| |
+|reset --hard|O| |
+|status| O | |
+|tag| O | |
