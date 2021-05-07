@@ -108,21 +108,22 @@ reset 일련번호 --hard : 일련번호에 해당하는 commit으로 되돌리�
 - tag : commit에 이름을 붙여주는 명령어
 ![tag](https://user-images.githubusercontent.com/64363668/117331861-1e523000-aed2-11eb-9ed1-f8cd5ed72980.PNG)
 
-|    명령어    |    사용여부    |              링크             |
-| :---------: | :----------:   | :---------------------------: |
-|  add        | O | |
-|  branch | O | |
-|checkout| O | |
-|clone| O | |
-|commit| O | |
-|config| O | |
-|[init](#init) | O | |
-|[log](#log)| O | |
-|merge| O | |
-|pull| O| |
-|push| O| |
-|rebase| O | |
-|remote|O| |
-|reset --hard|O| |
-|status| O | |
-|tag| O | |
+[init](#init)
+|    명령어    |    사용여부    | 
+| :---------: | :----------:   |
+|  add        | O |
+|  branch | O |
+|checkout| O |
+|clone| O |
+|commit| O |
+|config| O |
+|[init](#init) | O |
+|[log](#log)| O |
+|merge| O |
+|pull| O|
+|push| O|
+|rebase| O |
+|remote|O|
+|reset --hard|O|
+|status| O |
+|tag| O |
