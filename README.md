@@ -117,7 +117,7 @@ reset 일련번호 --hard : 일련번호에 해당하는 commit으로 되돌리�
 |commit| O | |
 |config| O | |
 |init | O |[- init](#- init) |
-|log| O |[log](#log) |
+|[log](#log)| O | |
 |merge| O | |
 |pull| O| |
 |push| O| |
