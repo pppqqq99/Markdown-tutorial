@@ -112,7 +112,7 @@ pull : git서버에서 최신화된 파일들을 가져와 병합하는 명령�
 ### log
 log : commit 히스토리 
 log --graph --all --decorate : 프로젝트의 commit들과 branch의 관계도를 나타냄
- ![log --graph --all --decorate](https://user-images.githubusercontent.com/64363668/117331879-24e0a780-aed2-11eb-82d4-31590e042dcb.PNG)
+![log --graph --all --decorate](https://user-images.githubusercontent.com/64363668/117331879-24e0a780-aed2-11eb-82d4-31590e042dcb.PNG)
 
 ### reset 
 reset : 이전 commit으로 되돌리기
@@ -140,6 +140,6 @@ tag : commit에 이름을 붙여주는 명령어
 |[push](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#push)| O|
 |[rebase](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#rebase)| O |
 |[remote](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#remote)|O|
-|[reset](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#rese)|O|
+|[reset](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#reset)|O|
 |[status](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#status)| O |
 |[tag](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#tag)| O |
