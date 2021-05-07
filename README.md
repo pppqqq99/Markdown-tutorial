@@ -23,7 +23,7 @@ https://github.com/pppqqq99/Markdown-tutorial
 ### config : 현재 설정된 Git 설정 확인하기 
 config —global : 이름과 이메일 등록- git 저장소를 제어하는데 필요한 정보
 ![config --global](https://user-images.githubusercontent.com/64363668/117330886-1ba30b00-aed1-11eb-99eb-677b587a1dac.PNG)
-- status : 현재 폴더에서 파일들의 상태들을 알려주는 명령어
+### status : 현재 폴더에서 파일들의 상태들을 알려주는 명령어
 - ![status](https://user-images.githubusercontent.com/64363668/117331000-43926e80-aed1-11eb-9dc9-ac30a2f98221.PNG)
 - add : 작업 디렉토리 상의 변경 내용을 스테이징 영역에 추가하는 명령어
 add -A : commit되지 않은 파일들을 commit가능하게 변경  
