@@ -18,9 +18,9 @@ https://github.com/pppqqq99/Markdown-tutorial
 
 
 1. markdown tutorial이라는 폴더를 생성 한 후 contents라는 파일 생성 후 commit
-- init : 빈 git 저장소가 만들어짐 – 이 폴더가 git의 관리 하에 들어감
+### init : 빈 git 저장소가 만들어짐 – 이 폴더가 git의 관리 하에 들어감
 ![init](https://user-images.githubusercontent.com/64363668/117330796-0332f080-aed1-11eb-8716-d2abe8cdab42.PNG)
-- config : 현재 설정된 Git 설정 확인하기 
+### config : 현재 설정된 Git 설정 확인하기 
 config —global : 이름과 이메일 등록- git 저장소를 제어하는데 필요한 정보
 ![config --global](https://user-images.githubusercontent.com/64363668/117330886-1ba30b00-aed1-11eb-99eb-677b587a1dac.PNG)
 - status : 현재 폴더에서 파일들의 상태들을 알려주는 명령어
