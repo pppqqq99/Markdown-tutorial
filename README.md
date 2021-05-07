@@ -16,20 +16,60 @@ https://github.com/pppqqq99/Markdown-tutorial
 
 * 첫 번째 플레이어의 첫 번째 작업  
 
+
+1. markdown tutorial이라는 폴더를 생성 한 후 contents라는 파일 생성 후 commit
+- init : 빈 git 저장소가 만들어짐 – 이 폴더가 git의 관리 하에 들어감
 ![init](https://user-images.githubusercontent.com/64363668/117330796-0332f080-aed1-11eb-8716-d2abe8cdab42.PNG)
-1. markdown tutorial이라는 폴더를 생성 한 후 내용이라는 파일 생성 후 commit
+- config :
+- add :
+- commit :
+
 2. master branch에서 contents-detail이라는 branch를 생성 한 후 heading이라는 파일을 commit
+- branch :
+
+
 3. master branch에 contents-detail을 merge함
-4. master branch에서 contents-linebreaks라는 branch 생성 후 linebreaks라는 파일을 commit
-5. master branch로 다시 checkout한 후 pragraphs라는 파일을 commit
-6. master branch에 contenst-linebreaks를 rebase함
-7. 이후 github의 원격 repository인 origin에 master branch를 push함
+- merge :
+
+7. master branch에서 contents-linebreaks라는 branch 생성 후 linebreaks라는 파일을 commit
+
+9. master branch로 다시 checkout한 후 pragraphs라는 파일을 commit
+
+10. master branch에 contenst-linebreaks를 rebase함
+- checkout :
+- rebase :
+
+12. 이후 github의 원격 repository인 origin에 master branch를 push함
+- remote :
+- push :
 
 * 두 번째 플레이어의 첫 번째 작업  
 
 1. clone 함
-2. integrate file이라는 파일 생성
-3. 
+- clone :
+
+3. integrate file이라는 파일 생성
+
+4. push 함 
+
+* 첫 번째 플레이어의 두 번째 작업
+
+1. pull함
+- pull : 
+
+2. 파일 수정
+
+3. push함
+
+* 두 번째 플레이어의 두 번째 작업
+
+1. clone 함
+2. GFM파일을 만들어서 commit함
+3. 되돌리기 위해 reset함
+- reset :
+
+5. tag를 붙임
+- tag :
 
 
 |    명령어    |    사용여부    |              링크             |
