@@ -96,7 +96,7 @@ remote add origin '주소' : '주소'의 repository를 origin이란 이름의 �
 2. GFM파일을 만들어서 commit함
 
 3. 파일을 분할하면 안된다는 사실을 깨닫고 log를 통해 본인의 작업을 확인한 후 되돌리기 위해 reset함
-- log : commit 히스토리 
+### log : commit 히스토리 
 log --graph --all --decorate : 프로젝트의 commit들과 branch의 관계도를 나타냄
  ![log --graph --all --decorate](https://user-images.githubusercontent.com/64363668/117331879-24e0a780-aed2-11eb-82d4-31590e042dcb.PNG)
 
