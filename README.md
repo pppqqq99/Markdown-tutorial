@@ -117,7 +117,7 @@ reset 일련번호 --hard : 일련번호에 해당하는 commit으로 되돌리�
 |clone| O |
 |commit| O |
 |config| O |
-|[init](#init) | O |
+|[init](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#init--%EB%B9%88-git-%EC%A0%80%EC%9E%A5%EC%86%8C%EA%B0%80-%EB%A7%8C%EB%93%A4%EC%96%B4%EC%A7%90--%EC%9D%B4-%ED%8F%B4%EB%8D%94%EA%B0%80-git%EC%9D%98-%EA%B4%80%EB%A6%AC-%ED%95%98%EC%97%90-%EB%93%A4%EC%96%B4%EA%B0%90) | O |
 |[log](#log)| O |
 |merge| O |
 |pull| O|
