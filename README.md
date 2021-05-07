@@ -14,7 +14,7 @@ https://github.com/pppqqq99/Markdown-tutorial
 4. 두 번째 플레이어의 두 번째 작업 - 두 번째 플레이어가 다른 pc로 player1's final을 확인하고 GFM부분을 분리하는 수정을 하였다가 파일을 하나로 만들어야 하기 때문에 다시 reset을 한 후 player1's final에 tag를 붙이며 프로젝트를 마친다.
 
 
-* 첫 번째 플레이어의 첫 번째 작업  
+## 첫 번째 플레이어의 첫 번째 작업  
 
 
 1. markdown tutorial이라는 폴더를 생성 한 후 contents라는 파일 생성 후 commit
@@ -61,35 +61,41 @@ remote add origin '주소' : '주소'의 repository를 origin이란 이름의 �
 ![github에 업로드 remote push-u](https://user-images.githubusercontent.com/64363668/117331414-b1d73100-aed1-11eb-9ef3-8fad67e04192.PNG)
 
 
-* 두 번째 플레이어의 첫 번째 작업  
 
-1. clone 함
+## 두 번째 플레이어의 첫 번째 작업  
+
+1. repository의 내용을 clone 함
 - clone : 원격 repository에 있는 branch를 복사하여 다른 곳에서 사용하는 명령어
 
 ![clone](https://user-images.githubusercontent.com/64363668/117331557-d59a7700-aed1-11eb-893b-814683656a30.PNG)
 
-3. integrate file이라는 파일 생성
+2. integrate file이라는 파일 생성하여 분할되어 있던 파일들을 하나의 file로 만들고 그 과정에서 여러번의 commit을 하여 기록을 남김
 
-4. push 함 
+3. push하여 본인의 작업 내용을 업로드 함 
 - push : 원격 repository에 변경된 사항들을 업로드
 ![push 2](https://user-images.githubusercontent.com/64363668/117331619-e814b080-aed1-11eb-91ef-c0cc7808d052.PNG)
 
 
-* 첫 번째 플레이어의 두 번째 작업
 
-1. pull함
+## 첫 번째 플레이어의 두 번째 작업
+
+1. pull하여 본인의 작업 파일에 두 번째 플레이어가 작업한 내용을 최신화 시킴
 - pull : git서버에서 최신화된 파일들을 가져와 병합하는 명령어
 ![pull](https://user-images.githubusercontent.com/64363668/117331675-f662cc80-aed1-11eb-8f56-5614c61c6f24.PNG)
 
-2. 파일 수정
+2. 두 번째 플레이어가 작성한 파일에 내용을 추가함
 
-3. push함
+3. push하여 본인의 작업 내용을 업로드 함
 
-* 두 번째 플레이어의 두 번째 작업
 
-1. clone 함
+
+## 두 번째 플레이어의 두 번째 작업
+
+1. 다른 pc에서 작업한다고 가정하여 repository의 내용을 clone함
+
 2. GFM파일을 만들어서 commit함
-3. 되돌리기 위해 reset함
+
+3. 파일을 분할하면 안된다는 사실을 깨닫고 log를 통해 본인의 작업을 확인한 후 되돌리기 위해 reset함
 - log : commit 히스토리 
 log --graph --all --decorate : 프로젝트의 commit들과 branch의 관계도를 나타냄
  ![log --graph --all --decorate](https://user-images.githubusercontent.com/64363668/117331879-24e0a780-aed2-11eb-82d4-31590e042dcb.PNG)
@@ -98,7 +104,7 @@ log --graph --all --decorate : 프로젝트의 commit들과 branch의 관계도�
 reset 일련번호 --hard : 일련번호에 해당하는 commit으로 되돌리고 그 이후의 commit들은 삭제한다.
 ![reset](https://user-images.githubusercontent.com/64363668/117331820-15615e80-aed2-11eb-9f19-5959e0cbf6aa.PNG)
 
-4. tag를 붙임
+4. tag를 붙여 첫 번째 플레이어의 두 번째 작업 파일이 최종 산출물이라는 내용을 tag함
 - tag : commit에 이름을 붙여주는 명령어
 ![tag](https://user-images.githubusercontent.com/64363668/117331861-1e523000-aed2-11eb-9ed1-f8cd5ed72980.PNG)
 
