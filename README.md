@@ -127,19 +127,19 @@ tag : commit에 이름을 붙여주는 명령어
 
 |    명령어    |    사용여부    | 
 | :---------: | :----------:   |
-|  [add]()        | O |
-|  [branch]() | O |
-|[checkout]| O |
-|[clone]| O |
-|[commit]| O |
-|[config]| O |
-|[init]() | O |
-|[log]()| O |
-|[merge]| O |
-|[pull]| O|
-|[push]| O|
-|[rebase]| O |
-|[remote]|O|
-|[reset]|O|
-|[status]| O |
-|[tag]| O |
+|  [add](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#add)        | O |
+|  [branch](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#branch) | O |
+|[checkout](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#checkout)| O |
+|[clone](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#clone)| O |
+|[commit](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#commit)| O |
+|[config](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#config)| O |
+|[init](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#init) | O |
+|[log](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#log)| O |
+|[merge](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#merge)| O |
+|[pull](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#pull)| O|
+|[push](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#push)| O|
+|[rebase](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#rebase)| O |
+|[remote](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#remote)|O|
+|[reset](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#rese)|O|
+|[status](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#status)| O |
+|[tag](https://github.com/pppqqq99/Markdown-tutorial/blob/main/README.md#tag)| O |
